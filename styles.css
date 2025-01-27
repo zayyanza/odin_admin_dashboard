@@ -59,12 +59,10 @@ input:focus {
     gap: 1rem;
 }
 
-
-
 img {
     height: 40px; /* or your desired height */
     width: auto; /* Maintain aspect ratio */
-    background-color: grey;
+    background-color: rgb(217, 224, 230);
     border-radius: 100%;
 }
 
@@ -79,23 +77,34 @@ img {
 
 .menu-bottom {
     display: flex;
+    padding: 1rem 2rem;
     justify-content: space-between;
+    background-color: white;
 }
 
 .menu-bottom > * {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 1rem;
+}
+
+.menu-bottom img {
+    height: 60px;
+}
+
+.menu-bottom-right {
+    gap: 2rem;
 }
 
 .menu-bottom-right > * {
     display: flex;
     background-color: rgb(66, 66, 255);
-    border-radius: 12px;
+    border-radius: 18px;
     height: 36px;
     width: 80px;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .content {
