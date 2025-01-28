@@ -16,12 +16,45 @@ body {
 
 .sidebar {
     background-color: blue;
-    display: grid;
-    grid-template-rows: 24px 1fr 2fr;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dashboard {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .sidebar div {
     color: white;
+}
+
+.sidebar h2 {
+    padding: 0.5rem 0;
+}
+
+.main-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-links > * {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.secondary-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondary-links > * {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .main {
