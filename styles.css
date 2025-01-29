@@ -15,6 +15,7 @@ body {
 }
 
 .sidebar {
+    padding: 1rem 1rem;
     background-color: blue;
     display: flex;
     flex-direction: column;
@@ -25,6 +26,14 @@ body {
     display: flex;
     gap: 0.5rem;
     align-items: center;
+}
+
+.dashboard h2 {
+    font-size: 28px;
+}
+
+.dashboard svg {
+    height: 40px;
 }
 
 .sidebar div {
